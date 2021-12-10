@@ -1,0 +1,12 @@
+Netid Yunxiao9
+Yunxiao Song
+
+I have implemented all parts required, which includes random_bytes(),specialEncryption(), in the util.py; garbled_evaluate() in evaluator.py; shuffle() and garble() in generator.py. I am trying to implement the multiplication circuit in bouns question, but I failed to understand the algorithm and solved it.  
+
+The central question that I encountered in this MP is about the hex decoding/encoding at the beginning. With some lookup, reading, and further comprehension of the code, I figured out how each function is interfaced. Another wired challenge I met was installing the pycrypto package in my Conda virtual environment because there's some compatibility issue(this version was not in Conda). After I switched to a new bash Unix environment, compile became much more straightforward. I appreciate the sample data structure in the handout.pdf, which saved me a lot of time understanding the jobs. Overall speaking, the machine problem is well structured, clearly instructed, and I enjoyed doing it.
+
+citations for the problem set:
+http://countchu.blogspot.com/2016/12/why-is-2-round-feistel-not-secure-prp.html
+https://math.stackexchange.com/questions/2078802/proving-that-infinite-sum-of-negligible-functions-might-be-not-negligible
+
+
